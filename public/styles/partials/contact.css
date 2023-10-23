@@ -1,0 +1,43 @@
+/* Estilos para o formulário de contato */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos para centralizar o formulário de contato */
+main {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+form {
+    display: inline-block; /* Permite que o formulário ocupe apenas o espaço necessário */
+    text-align: left; /* Reverte o alinhamento para o conteúdo do formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+}

@@ -1,0 +1,19 @@
+/* Estilos para a imagem de fundo na seção main */
+.main-background {
+    position: relative;
+    background-image: url("../../images/familia.jpg"); /* Caminho relativo para a imagem */
+    background-size: cover; /* A imagem cobrirá todo o elemento */
+    background-position: center; /* A imagem ficará centralizada */
+    background-repeat: no-repeat; /* A imagem não se repetirá */
+    height: 53.6vh; /* Define a altura da seção para a altura da janela (viewport height) */
+}
+
+
+.main-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
