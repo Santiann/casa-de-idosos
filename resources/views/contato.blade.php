@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @push('styles')
-<link rel="stylesheet" href="{{ asset('styles/partials/contact.css') }}">
+<link rel="stylesheet" href="{{ asset('styles/partials/contato.css') }}">
 @endpush
 
 @section('content')
@@ -23,7 +23,7 @@
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" required></textarea>
         </div>
-        <button type="submit">Enviar</button>
+        <button class="send" type="submit">Enviar</button>
     </form>
 </main>
 @endsection

@@ -17,7 +17,7 @@ textarea {
     border-radius: 5px;
 }
 
-button {
+.send {
     background-color: #007BFF;
     color: #fff;
     padding: 10px 20px;
@@ -26,7 +26,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.send:hover {
     background-color: #0056b3;
 }
 

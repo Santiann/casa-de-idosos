@@ -1,0 +1,25 @@
+/* Estilos para o carrossel */
+.owl-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-item img {
+    border-radius: 50%; /* Torna a imagem redonda */
+    width: 200px; /* Ajuste o tamanho da imagem redonda como desejar */
+    height: 200px; /* Ajuste a altura da imagem redonda como desejar (mantendo a proporção) */
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-item p {
+    margin-top: 10px; /* Espaço entre a imagem e o texto */
+    font-size: 16px;
+    font-weight: bold;
+}

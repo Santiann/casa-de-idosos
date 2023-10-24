@@ -1,0 +1,46 @@
+/* Estilos para a página "Quem Somos" (about) */
+
+.main {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.quem-somos {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.quem-somos h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.quem-somos p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os objetivos */
+
+.objetivos {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.objetivos h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.objetivos p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
